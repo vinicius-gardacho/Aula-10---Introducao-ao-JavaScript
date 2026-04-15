@@ -2,7 +2,6 @@ body{
     margin: 0;
 }
 
-
 .cartao{
     height: 12rem;
 }
@@ -23,11 +22,9 @@ body{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
-
 .cartao:hover .conteudo{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
-
 
 .pergunta, .resposta{
     position: absolute;
@@ -39,5 +36,5 @@ body{
 }
 
 .resposta{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
