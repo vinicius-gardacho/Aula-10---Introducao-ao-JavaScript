@@ -7,13 +7,11 @@ body{
     height: 12rem;
 }
 
-
 #container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
-
 
 .conteudo{
     position: relative;
