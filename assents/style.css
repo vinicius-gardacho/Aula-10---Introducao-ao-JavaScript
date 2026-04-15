@@ -6,6 +6,16 @@ body{
     height: 12rem;
 }
 
+h3{
+    margin: 0;
+    font-size: 1.5rem;
+    backface-visibility: hidden;
+    padding: 2rem;
+    background-color: #333;
+    border-radius: 1rem;
+    color: white;
+}
+
 #container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -22,7 +32,7 @@ body{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
-.cartao:hover .conteudo{
+.cartao.ativo .conteudo{
     transform: rotateY(180deg);
 }
 
@@ -33,8 +43,21 @@ body{
     display: flex;
     padding: 2rem;
     backface-visibility: hidden;
+    justify-content: center;
 }
 
 .resposta{
     transform: rotateY(180deg);
+    font-size: 1.75rem;
+}
+
+#botao{
+    margin: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
 }

@@ -5,7 +5,7 @@ criar_cartao(
 )
 
 criar_cartao(
-    "futebol",
+    "Futebol",
     "Qual o campeão da Libertadores de 2024?",
     "Botafogo"
 )
